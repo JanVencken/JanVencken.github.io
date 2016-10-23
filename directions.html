@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+   <title>Scalini's Pizza &amp; Pasta - Directions</title>
+    <script>
+      function initMap() {
+        var scalinis = {lat: 32.8145, lng: -96.7532};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: scalinis
+        });
+        var marker = new google.maps.Marker({
+          position: scalinis,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgC2VfzF3FjZeizSHU0vgDAPKOYCTjX_U&callback=initMap">
+    </script>
+</head>
+<body onload="load()" onunload="GUnload()">
+   <center>
+   <table style="width: 100%;" border="0" cellspacing="0" cellpadding="10">
+      <tbody>
+      <tr>
+      <th style="background-color: rgb(0, 128, 0); width: 34%; text-align: center;">
+      <a href="/"><font size="+2">Home</font></a></th>
+      <th style="background-color: rgb(255, 255, 255); width: 34%; text-align: center;">
+      <font size="+3">Scalini's<br> Pizza &amp; Pasta</font></th>
+      <th style="background-color: rgb(180, 0, 0); width: 34px;"><br></th>
+      </tr>
+      <tr>
+      <td style="text-align: center; width: 34%; background-color: rgb(0, 128, 0); vertical-align: middle;"><a href="menu.pdf" target="_new"><img src="menupic.gif" title="" alt="Menu" border="0"><br> <font size="+2">Menu</font></a><br></td>
+      <td style="text-align: center; vertical-align: middle; width: 34%; background-color: rgb(255, 255, 255);"><span style="text-decoration: underline;"></span><span style="text-decoration: underline;"></span><small><font size="+2"><small>2021 Abrams Road<br>
+Dallas, Texas 75214<br>
+214-821-8088</small></font></small><br>
+<div id="map" style="width: 500px; height: 300px"></div><br>
+</td>
+<td style="width: 34px; text-align: center; background-color: rgb(180, 0, 0); vertical-align: middle;"><img src="compass.gif" title="" alt="compass" border="0"><a href="directions.html"><br>
+</a> </td>
+     </tr>
+     <tr>
+     <td style="vertical-align: top; background-color: rgb(0, 128, 0); text-align: center; width: 34%;"><br>
+     </td>
+     <td style="vertical-align: top; background-color: rgb(255, 255, 255); text-align: center; width: 34%;"><a href="order.html"><img src="phone.gif" title="" alt="Order" style="border: 0px solid ; width: 193px; height: 132px;"><br>
+     <font size="+2">Order</font></a><br>
+     </td> <td style="vertical-align: top; background-color: rgb(180, 0, 0);"><br>
+     </td>
+     </tr>
+     </tbody>
+</table>
+</center>
+</body>
+</html>
